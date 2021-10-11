@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Stocks</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  </head>
+  <body>
+  <p id = "inputInform">
+  Enter symbol market here :
+   <input type="text" value="TSCO" id = "stockName"> <button type="button" id = "submit">Search</button>
+  </p>
+  <canvas id="canvas"></canvas>
+  <br>
+  <div>
+     <table id = "marketList">
+        <caption class = "caption1">Few available markets and their symbol </caption>
+        <a href="https://www.nasdaq.com/market-activity/stocks/screener" target="_blank" class = "caption2">To see more available markets click here </a>
+      </table>
+  </div>
+  </body>
+  <script src="script.js"></script>
+</html>
